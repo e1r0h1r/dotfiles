@@ -12,21 +12,14 @@
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
     ~/.config: config
+        create: true
     ~/.iterm2: iterm2
+        path: iterm2
+        create: true
     ~/.oh-my-zsh: oh-my-zsh
+        create: true
     ~/.SpaceVim: SpaceVim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-
-- clean: ['~']
-
-- link:
-    ~/.gitconfig: gitconfig
-
-
-- clean: ['~']
-
-- link:
-
 
