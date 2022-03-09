@@ -12,6 +12,7 @@
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
     ~/.config: config
+        path: config
         create: true
     ~/.iterm2: iterm2
         path: iterm2
