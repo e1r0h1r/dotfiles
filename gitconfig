@@ -1,3 +1,3 @@
-[core]
-	precomposeunicode = true
-	quotepath = true
+[user]
+	name = Salim Kim
+	email = elrohir@gmail.com
