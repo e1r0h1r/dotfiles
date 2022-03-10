@@ -10,27 +10,16 @@
         path: vim/vimrc
         create: true
     ~/.zprofile: zprofile
-    ~/.zshrc: zshrc
-    ~/.config: config
-        path: config
-        create: true
+    ~/.zshrc: 
+        force: true
+        path: zshrc
     ~/.iterm2: iterm2
-        path: iterm2
         create: true
+        path: iterm2
     ~/.oh-my-zsh: oh-my-zsh
         create: true
-    ~/.SpaceVim: SpaceVim
+        path: oh-my-zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-
-- clean: ['~']
-
-- link:
-
-
-- clean: ['~']
-
-- link:
-
 
