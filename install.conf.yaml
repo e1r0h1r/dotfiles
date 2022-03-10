@@ -4,6 +4,8 @@
 
 - clean: ['~']
 
+- create: oh-my-zsh
+
 - link:
     ~/.gitconfig: gitconfig
     ~/.vim/vimrc:
@@ -16,8 +18,7 @@
     ~/.iterm2:
         path: iterm2
         create: true
-    ~/.oh-my-zsh/:
-        path: dotfiles/oh-my-zsh/**
+    ~/.oh-my-zsh/: oh-my-zsh/**
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
