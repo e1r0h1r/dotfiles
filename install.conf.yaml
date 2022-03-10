@@ -13,10 +13,10 @@
     ~/.zshrc: 
         force: true
         path: zshrc
-    ~/.iterm2: iterm2
+    ~/.iterm2:
         path: iterm2
         create: true
-    ~/.oh-my-zsh: oh-my-zsh
+    ~/.oh-my-zsh:
         create: true
         path: oh-my-zsh
 
